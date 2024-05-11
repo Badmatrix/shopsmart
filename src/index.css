@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Open Sans",
+    sans-serif;
+  @apply bg-gray-50
+}
+
+.navbar ul li {
+  @apply mx-3 capitalize font-semibold
+}
+
+.btn-container .btn {
+  @apply font-bold py-3
+}
+
+.socials ul li {
+  @apply mx-3 capitalize
+}
+
+.setup-container .card label {
+  @apply relative block items-center pl-7 my-3 text-xs first-letter:capitalize
+}
+
+.setup-container .card label input {
+  @apply accent-light-blue w-5 h-5 absolute left-0 top-0
+}
+
+.footer ul li h5 {
+  @apply first-letter:capitalize font-semibold mb-5
+}
+
+.footer ul li ul li {
+  @apply text-xs first-letter:capitalize mb-5
+}
+
+.choose-us .card {
+  @apply bg-white shadow-md rounded-2xl px-9 h-full py-7
+}
+
+.choose-us .card .text-card {
+  @apply leading-7 py-2
+}
+
+.choose-us .card .text-card h3 {
+  @apply font-semibold first-letter:capitalize leading-7 text-neutral-900
+}
+
+.choose-us .card .text-card h6 {
+  @apply text-xs font-medium py-2 text-neutral-600
+}
+
+.choose-us .card .text-card p {
+  @apply leading-7 font-medium text-sm first-letter:capitalize
+}
+
+.store-headings .links ul li {
+  @apply rounded-3xl bg-white px-5 py-2 first-letter:capitalize text-sm font-semibold text-neutral-800 shadow-sm cursor-pointer
+}
+
+.store-headings .links ul li.active {
+  @apply bg-gray-blue text-light-blue
+}
+
+.store-container span {
+  @apply rounded-full bg-white px-3 py-1 mx-2 text-neutral-700
+}
+
+.store-card img {
+  @apply rounded-3xl
+}
+
+.locationCard-container .card {
+  @apply bg-white rounded-3xl px-4 py-2 my-3
+}
+
+.locationCard-container .card p {
+  @apply text-xs py-2 capitalize mx-2 text-gray-600
+}
+
+.locationCard-container .card p span {
+  @apply mr-2
+}
+
+.locationCard-container .card ul li {
+  @apply border-b capitalize text-sm font-medium px-2 py-2 text-gray-blue
+}
+
+.locationCard-container .card h6 {
+  @apply py-2 text-[13px] font-medium text-gray-500
+}
+
+.locationCard-container .card ul li span {
+  @apply mx-2
+}
+
+.socials ul li img {
+  @apply w-9 h-9 cursor-pointer
+}
+
+.socials ul li {
+  @apply mx-2
+}
